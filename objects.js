@@ -20,7 +20,7 @@ var contact1 = new Contact ("Atwine", "Antonio", "256772122083", "anthonybakunda
 //Address as an object to store the city, street and Country
 
   contact1.address = function (){
-    console.log(this.localAddress[0] + ","+this.localAddress[1]+" "+this.localAddress[2]);
+    console.log(this.localAddress[0] + " "+this.localAddress[1]+" "+this.localAddress[2]);
   }
 console.log(contact1.address());
 console.log(contact1);
