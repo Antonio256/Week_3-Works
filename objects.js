@@ -13,17 +13,14 @@ function Contact (firstName, lastName, phoneNumber,emailAddress, localAddress) {
   this.localAddress = localAddress
 };
 
-var contact1 = new Contact ("Atwine", "Antonio", "256772122083", "anthonybakunda@gmail.com", "firstName");
-var contact1 = new Contact ("Atwine", "Antonio", "256772122083", "anthonybakunda@gmail.com", "lastName");
-var contact1 = new Contact ("Atwine", "Antonio", "256772122083", "anthonybakunda@gmail.com", "phoneNumber");
-var contact1 = new Contact ("Atwine", "Antonio", "256772122083", "anthonybakunda@gmail.com", "emailAddress");
-var contact1 = new Contact ("Atwine", "Antonio", "256772122083", "anthonybakunda@gmail.com", "Kasangati");
+var contact1 = new Contact ("Atwine", "Antonio", "256772122083", "anthonybakunda@gmail.com", ["Kampala", "Kamwokya", "Uganda"]);
 
+//console.log(contact1.localAddress);
 
-console.log(contact1.firstName);
-console.log(contact1.lastName);
-console.log(contact1.phoneNumber);
-console.log(contact1.emailAddress);
-console.log(contact1.localAddress);
+//Address as an object to store the city, street and Country
 
-//Address as an object to store the city, street and COuntry
+  contact1.address = function (){
+    console.log(this.localAddress[0] + ","+this.localAddress[1]+" "+this.localAddress[2]);
+  }
+console.log(contact1.address());
+console.log(contact1);
