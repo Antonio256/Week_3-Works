@@ -1,0 +1,28 @@
+/*img {
+  display: none;
+}
+*/
+
+.walrus-showing {
+  display: none;
+}
+
+
+/*p {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+*/
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
