@@ -1,14 +1,13 @@
-$(document).ready(function() {
-  $("#blanks form").submit(function() {
-    var blanks = ["person1", "person2", "animal", "exclamation", "verb", "noun"];
-
-    blanks.forEach(function(blank) {
-      var userInput = $("input#" + blank).val();
-      $("." + blank).text(userInput).val();
-
-    });
-
-    $("#story").show();
-    event.preventDefault();
+jQuery(document).ready(function() {
+  jQuery("h1").click(function() {
+    alert("This is a header.");
   });
+
+  jQuery("p").click(function() {
+    alert("This is a paragraph.");
+  });
+  
+jQuery("img").click(function() {
+  alert("This is an image.");
+});
 });
