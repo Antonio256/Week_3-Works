@@ -1,0 +1,44 @@
+/*img {
+  display: none;
+}
+*/
+
+.walrus-showing {
+  display: none;
+}
+
+
+/*p {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+*/
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+
+/*
+for color.html
+*/
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
+}
